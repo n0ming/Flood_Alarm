@@ -5,7 +5,7 @@ After executing "sensor_db.py", "flood_alarm.py" must be executed simultaneously
 
 # Table DB create command
 *************************** 1. row ***************************
-       Table: mysql
+Table: mysql
 Create Table: CREATE TABLE `mysql` (
   `sensor` varchar(50) DEFAULT NULL,
   `daytime` varchar(50) NOT NULL,
