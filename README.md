@@ -4,7 +4,6 @@ After executing "sensor_db.py", "flood_alarm.py" must be executed simultaneously
 "socket_connection.py" is executed in Raspberry Pi when connecting using 'Simple TCP Socket Tester' Application.
 
 # Table DB create command
-Table: mysql
 Create Table: CREATE TABLE `mysql` (
   `sensor` varchar(50) DEFAULT NULL,
   `daytime` varchar(50) NOT NULL,
