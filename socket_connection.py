@@ -7,7 +7,9 @@ import time
 import numpy as np
 LOCALHOST = "172.30.1.69" #raspberry pi address
 PORT = 8110  #random port
-
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server.bind((LOCALHOST,PORT))
+server.listen(1)
 send_warn=""
 send_method="lf you want to know about water level of your house, please enter this sentense,'Water Level'!"
 while True:  #wait for Android to press connect button
@@ -36,7 +38,7 @@ while True:  #wait for Android to press connect button
                 if(x<20):
                     send_warn = "...."
                 if(20<=x and x<=150):
-                    send_warn = ("level 1%s"%x) #%s to check getting the latest db value in real time
+                    send_warn = ("level 1 | value : %s"%x) #%s to check getting the latest db value in real time
                 elif(160<=x and x<195):
                     send_warn = "level 2" 
                 elif(x>=196):       
