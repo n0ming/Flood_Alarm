@@ -106,7 +106,7 @@ while True :
                 print("msg")
                 e_msg()
                 num_disposable = 0
-        elif detection_count1=0 & detection_count2>2 :
+        elif detection_count1==0 & detection_count2>2 :
             #Since a person was not recognized at water level 2, it is unlikely to be recognized as a person at level 3, so the count value standard is raised to prevent errors.
             if num_disposable == 1:
                 print("msg")
