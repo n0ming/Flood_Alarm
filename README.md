@@ -10,10 +10,6 @@ Create Table: CREATE TABLE `mysql` (
   `value` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci
 
-# Flood_Alarm 3D Modeling
-![KakaoTalk_20230507_113335439_02](https://github.com/n0ming/Flood_Alarm/assets/132183887/119670b5-cfc4-4d28-8f36-dddee8599bfd)
-![KakaoTalk_20230507_113335439_01](https://github.com/n0ming/Flood_Alarm/assets/132183887/27dc8794-6add-4f7e-824c-73d8a4b9a380)
-
 # Why did we choose the topic?
 ![image](https://github.com/user-attachments/assets/c8b4ce22-c667-444f-8e79-be8dfbf9ca42)
 
